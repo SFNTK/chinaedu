@@ -81,4 +81,7 @@ row-gap: 10px;
         width: 100%;
         height: 300px;
     }
+    #learnmore{
+        margin-top:15px;
+    }
 }
