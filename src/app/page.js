@@ -155,7 +155,7 @@ export default function LandingPage() {
                
                 <p className="flex items-center mb-4">
                   <Phone className="mr-2 text-red-500" />
-                  +212 522 000 000
+                  +212 6 64 76 96 55
                 </p>
                 <div className="flex   gap-x-3">
                  
