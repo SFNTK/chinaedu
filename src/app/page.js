@@ -18,7 +18,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 
 export default function LandingPage() {
- 
+ const cardspara="Our agency ensures that each student's journey, from admission to settling in, is smooth and supported at every step. We provide ongoing support to make your transition to China both enriching and hassle-free."
   gsap.registerPlugin(ScrollTrigger);
   useEffect(()=>{
     const tls6 = gsap.timeline({
@@ -50,7 +50,7 @@ export default function LandingPage() {
       From Morocco to China: Start Your Global Educational Adventure
     </h2>
     <p className="text-lg mb-10 text-center max-w-3xl mx-auto text-gray-300">
-      Our agency ensures that each student's journey, from admission to settling in, is smooth and supported at every step. We provide ongoing support to make your transition to China both enriching and hassle-free.
+   {cardspara}
     </p>
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       {[
