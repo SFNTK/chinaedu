@@ -4,6 +4,7 @@ import Link from 'next/link'
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 const Mission = () => {
+    const missionpara=" We are passionate about connecting Moroccan students with world-class opportunities in China. Through personalized support and partnerships with leading universities, we ensure that your educational journey is seamless and successful. From application to settling in, we're with you every step of the way."
     gsap.registerPlugin(ScrollTrigger);
     useEffect(() => {
         const tls3 = gsap.timeline({
@@ -37,7 +38,7 @@ const Mission = () => {
                             Our Mission: Bridging the Gap Between Morocco and China
                         </h2>
                         <p className="text-lg mb-6">
-                            We are passionate about connecting Moroccan students with world-class opportunities in China. Through personalized support and partnerships with leading universities, we ensure that your educational journey is seamless and successful. From application to settling in, we're with you every step of the way.
+                            {missionpara}   
                         </p>
                         <Link href="#services" className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300 inline-block">
                             Explore Our Services
