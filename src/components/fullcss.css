@@ -1,0 +1,46 @@
+#heroimg{
+    width: 400px;
+height: 300px;}
+h1,h2,h3,p{
+    font-family: "DM Sans", sans-serif;
+
+}
+#aboutimg{
+    width: 500px;
+    height: 400px;
+   
+   
+}
+#partners{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2563eb;
+    color: white;
+}
+
+#paer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+#logopartners{
+    width: 200px;
+    height: 100px;
+}
+.testiimg{
+    width: 100px;
+    height: 100px;
+}
+#aboutcont{
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   
+   
+}
+#about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
