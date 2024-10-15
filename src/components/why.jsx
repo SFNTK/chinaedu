@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Why = () => {
+  const whypara="   China is not only one of the world's largest economies but also home to some of the most renowned universities in Asia. Moroccan students benefit from high-quality education, scholarships, and a rich cultural experience."
   gsap.registerPlugin(ScrollTrigger);
   useEffect(()=>{
     const tls4 = gsap.timeline({
@@ -33,7 +34,7 @@ const Why = () => {
             className="text-lg mb-10 text-center max-w-3xl mx-auto"
             
           >
-            China is not only one of the world's largest economies but also home to some of the most renowned universities in Asia. Moroccan students benefit from high-quality education, scholarships, and a rich cultural experience.
+            {whypara}
           </p>
           <div 
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
