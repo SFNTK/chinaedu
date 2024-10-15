@@ -17,12 +17,12 @@ const fadeIn = {
   }
 
 const Hero = () => {
-    
+    const heroh1="Unlock Your Future in China's Top Universities"
     return (
         <section id="hero" className="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-20">
           <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
             <motion.div className="md:w-2/3 mb-10 md:mb-0" initial="initial" animate="animate" variants={staggerChildren}>
-              <motion.h1 variants={fadeIn} className="text-4xl md:text-5xl font-bold mb-4">Unlock Your Future in China's Top Universities</motion.h1>
+              <motion.h1 variants={fadeIn} className="text-4xl md:text-5xl font-bold mb-4">{heroh1}</motion.h1>
               <motion.p variants={fadeIn} className="text-xl mb-6">Guiding Moroccan students to success with personalized support and prestigious partnerships.</motion.p>
               <motion.div variants={fadeIn} className="space-x-4">
                 <Link href="#contact" className="bg-red-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-red-600 transition duration-300 inline-block">
