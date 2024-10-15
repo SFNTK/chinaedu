@@ -28,7 +28,7 @@ const Hero = () => {
                 <Link href="#contact" className="bg-red-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-red-600 transition duration-300 inline-block">
                   Start Your Journey
                 </Link>
-                <Link href="#about" className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">
+                <Link href="#about" id="learnmore" className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">
                   Learn More
                 </Link>
               </motion.div>
