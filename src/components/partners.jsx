@@ -4,6 +4,7 @@ import Link from 'next/link'
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 const Partners = () => {
+  const partnerstitle="Partnering with China's Leading Universities"
   gsap.registerPlugin(ScrollTrigger);
   useEffect(()=>{
     const tls4 = gsap.timeline({
@@ -30,7 +31,7 @@ const Partners = () => {
             className="text-3xl font-bold mb-8 text-center"
         
           >
-            Partnering with China's Leading Universities
+         {partnerstitle}
           </h2>
           <p 
             className="text-lg mb-10 text-center max-w-3xl mx-auto"
